@@ -14,8 +14,8 @@ html {
 #box {
     display:flex;
     border: 5px solid black;
-    width: 900px;
-    height: 900px;
+    width: 700px;
+    height: 700px;
     flex-direction: column;
 }
 
@@ -40,7 +40,7 @@ html {
 
 #color-selection button {
     padding: 30px;
-    width: 100px;
+    width: 50px;
     height: 25px;
     color: red;
     padding-bottom: 40px;
