@@ -7,19 +7,21 @@ html {
     padding: 0;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 25px;
 }
 
 #box {
     display:flex;
-    border: 1px solid black;
-    width: 1000px;
-    height: 1000px;
+    border: 5px solid black;
+    width: 900px;
+    height: 900px;
     flex-direction: column;
 }
 
 .row {
     display: flex;
-    border: 1px solid black;
+    border: 0.5px solid black;
     width: 100%;
     flex: 1;
 
@@ -27,6 +29,20 @@ html {
 
 .square {
     border: 1px solid black;
-    width: 6.25%;
+    flex: 1;
     height: 100%;
 }
+
+#color-selection {
+    display: flex;
+    gap: 10px;
+}
+
+#color-selection button {
+    padding: 30px;
+    width: 100px;
+    height: 25px;
+    color: red;
+    padding-bottom: 40px;
+}
+
